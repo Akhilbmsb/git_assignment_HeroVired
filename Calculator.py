@@ -8,16 +8,37 @@ class Calculator:
     def subtract(self, a, b): return a - b
 
     def multiply(self, a, b): return a * b
+    
+    def divide(self, a, b):
+        if b == 0:
+            raise ValueError("Cannot divide by zero.") 
+        return a / b
 
-    def divide(self, a, b): return a / b
+    def square_root(self, x): return math.sqrt(x)
+
+    
+
+
 
  
 
 # TODO: Implement the following function to calculate the square root of a number.
 
+
 # def square_root(self, x):
 
 #     return math.sqrt(x)
+
+
+
+
+    
+
+# def square_root(self, x):
+
+#     return math.sqrt(x)
+
+
 
  
 
@@ -39,3 +60,5 @@ print(f"{num1} + {num2} = {calculator.add(num1, num2)}")
 print(f"{num1} - {num2} = {calculator.subtract(num1, num2)}") 
 print(f"{num1} * {num2} = {calculator.multiply(num1, num2)}") 
 print(f"{num1} / {num2} = {calculator.divide(num1, num2)}")
+print(f"{num1} = {calculator.square_root(num1)}")
+
