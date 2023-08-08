@@ -20,6 +20,7 @@ print(f"The area of the circle with radius {radius} = {calculator.calculate_circ
  
 
 # TODO: Implement the feature to calculate the area of a rectangle # 
+# hi
 length = 10
 
 width = 6
